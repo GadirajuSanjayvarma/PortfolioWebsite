@@ -1,0 +1,41 @@
+.body{
+
+ background-color: black;   
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+}
+
+
+.buttons
+{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.buttons a{
+    flex: 0.5;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.buttons a:hover{
+
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+.external
+{
+
+    color: red;
+}

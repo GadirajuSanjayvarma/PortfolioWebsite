@@ -1,0 +1,47 @@
+.certificatebody
+{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: red;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.certificatebody a{
+
+    color: red;
+    text-decoration: none;
+
+}
+
+
+
+.certificatebody a:hover
+{
+    background-color: white;
+
+
+}
+
+
+
+.certificate
+{
+
+    flex:0.45;
+   margin: 20px;
+    
+  
+    border: solid 2px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+

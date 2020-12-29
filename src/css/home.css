@@ -1,0 +1,62 @@
+.body
+{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+
+}
+
+
+.image
+{
+    margin-left: 25%;
+    margin-right: 32%;
+
+}
+
+.box{
+    background-color: black;
+    width:100vw; height:100vh;  
+    border:solid 3px red;
+    border-color: lightgray;
+    border-radius: 50%/100% 100% 0 0;
+    animation: mymove 1s infinite;
+    padding:220px;
+  }
+
+
+  @keyframes mymove {
+      from{
+        border-color:red;
+      }
+      to{
+        border-color:lightgray;
+      }
+   
+  }
+
+
+  .text
+  {
+      
+        color: red;
+
+  }
+
+
+  .text a{
+
+    animation: myChange 1s infinite;
+
+  }
+
+
+  @keyframes myChange {
+    from{
+      color:red;
+    }
+    to{
+     color:lightgray;
+    }
+ 
+}
