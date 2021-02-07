@@ -141,11 +141,37 @@ function RenderGames()
 {
   return(
   
-      <div  className="certificatebody">
-      None at the time.But i will update
-       
-      
-      </div>
+    <div  className="certificatebody">
+    <a className="certificate"  target="_blank" href="https://www.youtube.com/playlist?list=PLmUaAZisS931ERLlttu01FyR8PSANMeUU">
+    <img src="./Games/wildShooters1.png" alt="my picture" width="400px" height="300" />
+    <p>
+      Developed my first game named WildShooters which uses Unity Unet framework
+      to utilize players hotspot to connect each other without need for internet 
+    </p>
+    </a>
+
+    <a className="certificate"  target="_blank" href="https://www.youtube.com/watch?v=mu8FAySF4pI">
+    <img src="./Games/castleRun.png" alt="my picture" width="400px" height="300" />
+    <p>
+    I really like chess because it is turn based game.But why should
+    we confine it to only chess.So i made an soldier fighting game 
+    which is turn based and you have to choose move that counter
+    attack opponent moves.
+
+    </p>
+    </a>
+
+    <a className="certificate"  target="_blank" href="https://www.youtube.com/watch?v=mu8FAySF4pI">
+    <img src="./Games/coronaAwareness.png" alt="my picture" width="400px" height="300" />
+    <p>
+    I participated in an hackathon where i have to develop a Game
+    which will increase corona vaccine awareness where i included quiz,points etc.
+    Click on it to go to that devlog.
+    </p>
+    </a>
+
+    
+  </div>
   );
  
 }
